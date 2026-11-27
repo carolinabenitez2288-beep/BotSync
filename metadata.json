@@ -1,0 +1,6 @@
+{
+  "name": "Foto Estudio Tejada — Sistema de Gestión e Innovación",
+  "description": "Plataforma integrada para Foto Estudio Tejada (Villanueva, Cortés): Catálogo Digital con Escala Real, Bot Cotizador Omnicanal y Panel de Control de Pedidos con Alertas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

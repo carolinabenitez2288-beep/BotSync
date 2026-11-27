@@ -1,0 +1,103 @@
+import tazaImg from '../assets/images/prod_taza_ceramica_1794626783432.jpg';
+import termoImg from '../assets/images/prod_termo_acero_1794626784453.jpg';
+import llaveroImg from '../assets/images/prod_llavero_laser_1794626785248.jpg';
+import cuadroImg from '../assets/images/prod_cuadro_foto_1794626785519.jpg';
+import placaImg from '../assets/images/prod_placa_conm_1794626786117.jpg';
+import setFotosImg from '../assets/images/prod_set_fotos_1794626786726.jpg';
+import { Product } from '../types/studio';
+
+export const CATALOG: Product[] = [
+  {
+    id: 'taza-11',
+    sku: 'SUB-01',
+    name: 'Taza Cerámica Sublimada',
+    category: 'Sublimación',
+    material: 'Cerámica blanca grado AAA resistente a microondas',
+    volume: '11 oz (325 ml)',
+    widthCm: 8.2,
+    heightCm: 9.5,
+    price: 160,
+    customExtra: 30,
+    prodDays: 1,
+    desc: 'Ideal para regalos corporativos, cumpleaños y recuerdos.',
+    imageUrl: tazaImg,
+  },
+  {
+    id: 'termo-20',
+    sku: 'LAS-01',
+    name: 'Termo Acero Grabado Láser',
+    category: 'Grabado Láser',
+    material: 'Acero inoxidable doble pared (térmico frío/calor)',
+    volume: '20 oz (590 ml)',
+    widthCm: 8.5,
+    heightCm: 17.5,
+    price: 420,
+    customExtra: 60,
+    prodDays: 2,
+    desc: 'Grabado láser permanente de alta precisión que no se borra.',
+    imageUrl: termoImg,
+  },
+  {
+    id: 'llavero-mdf',
+    sku: 'LAS-02',
+    name: 'Llavero Personalizado Láser',
+    category: 'Grabado Láser',
+    material: 'Madera MDF barnizada o Acrílico de 3 mm',
+    volume: 'Espesor: 0.3 cm',
+    widthCm: 4.5,
+    heightCm: 6.0,
+    price: 65,
+    customExtra: 15,
+    prodDays: 1,
+    desc: 'Corte y grabado de logotipo, nombre o código QR.',
+    imageUrl: llaveroImg,
+  },
+  {
+    id: 'cuadro-8x10',
+    sku: 'FOT-01',
+    name: 'Cuadro Fotográfico Enmarcado (8×10")',
+    category: 'Fotografía e Impresión',
+    material: 'Papel fotográfico profesional lustre + Marco madera MDF',
+    volume: 'Espesor de marco: 1.8 cm',
+    widthCm: 20.3,
+    heightCm: 25.4,
+    price: 380,
+    customExtra: 50,
+    prodDays: 2,
+    desc: 'Impresión de alta resolución con protección anti-reflejo.',
+    imageUrl: cuadroImg,
+  },
+  {
+    id: 'placa-conm',
+    sku: 'LAS-03',
+    name: 'Placa Conmemorativa Acrílico/Madera',
+    category: 'Grabado Láser',
+    material: 'Base madera fina + placa acrílica grabada',
+    volume: 'Espesor total: 1.5 cm',
+    widthCm: 15.0,
+    heightCm: 20.0,
+    price: 650,
+    customExtra: 80,
+    prodDays: 3,
+    desc: 'Reconocimientos empresariales, graduaciones y aniversarios.',
+    imageUrl: placaImg,
+  },
+  {
+    id: 'set-foto',
+    sku: 'FOT-02',
+    name: 'Sesión + Impresión 12 Fotos (Carnet / 4×6)',
+    category: 'Fotografía e Impresión',
+    material: 'Papel fotográfico Kodak/Fujifilm brillante',
+    volume: 'Paquete de 12 impresiones',
+    widthCm: 10.2,
+    heightCm: 15.2,
+    price: 220,
+    customExtra: 40,
+    prodDays: 1,
+    desc: 'Retoque digital básico de iluminación y entrega rápida.',
+    imageUrl: setFotosImg,
+  },
+];
+
+export const VOLUME_DISCOUNT_THRESHOLD = 12;
+export const VOLUME_DISCOUNT_RATE = 0.1;
